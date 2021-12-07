@@ -62,7 +62,7 @@ int main()
 	}
 	else {
 		x1 = atoi(str.c_str());
-		for (int i = 0; i < str1.length(); i++) {
+		for (int i = 0; i < str.length(); i++) {
 			res += (x1 % 10) * pow(8, i);;
 			x1 /= 10;
 		}
